@@ -16,7 +16,7 @@ function AppContent() {
   const { logApiRequest, logApiResponse, logApiError, addLog } = useLog();
 
   useEffect(() => {
-    addLog('INFO', 'Aplicação iniciada', `API URL configurada: ${apiUrl}`);
+    addLog('INFO', 'Aplicação iniciada agora', `API URL configurada: ${apiUrl}`);
     getTasks();
   }, []);
 
