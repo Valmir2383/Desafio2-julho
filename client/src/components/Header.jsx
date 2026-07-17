@@ -24,7 +24,7 @@ const Header = ({ title }) => {
 };
 
 Header.defaultProps = {
-  title: "DESAFIO LABS JULHO 2026",
+  title: "DESAFIO LABS JULHO 2026 - BIA + IA",
 };
 
 export default Header;
